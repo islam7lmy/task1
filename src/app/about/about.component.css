@@ -1,0 +1,15 @@
+.home-page
+{
+    background: #1abc9c;
+    min-height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-box-item p
+{
+    color: #fff;
+    text-align: left;
+    margin-bottom: 1rem;
+}

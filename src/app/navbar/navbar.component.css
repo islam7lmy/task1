@@ -1,0 +1,27 @@
+header nav
+{
+    background: #2c3e50;
+    transition: .6s padding;
+}
+.navbar-collapse {
+    justify-content: end;
+}
+header nav li a
+{
+    color: #fff !important;
+    font-size: 18px;
+}
+.nav-item.active
+{
+    width: fit-content;
+    background: #1abc9c;
+    border-radius: .5rem;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 0;
+    z-index: 1030;
+}
